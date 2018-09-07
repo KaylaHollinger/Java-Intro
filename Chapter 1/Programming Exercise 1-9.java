@@ -1,4 +1,4 @@
-class ProEx {
+class Programming Exercise 1-9 {
   public static void main(String[] args) {
     // The application program displays the area and perimeter of a rectangle!
     System.out.println("Area of a rectangle");
