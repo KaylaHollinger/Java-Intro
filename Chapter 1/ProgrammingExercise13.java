@@ -1,5 +1,5 @@
 // This application program solves for x in the function x = (ed - bf) / (ad - bc), and for y in the function y = (af - ec) / (ad - bc).
-public class ProgrammingExercise13 {
+class ProgrammingExercise13 {
 	public static void main(String[] args) {
 		System.out.println("a = 3.4, b = 50.2, c = 2.1, d = 0.55, e = 44.5, f = 5.9");
 		System.out.println("x = ");
