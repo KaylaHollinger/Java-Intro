@@ -1,3 +1,5 @@
+// Kayla Hollinger 9/10/2018 Programming Exercise 2-1
+
 import java.util.Scanner; // Scanner is in the java.util pakage
 
 class ProgrammingExercise1 {
