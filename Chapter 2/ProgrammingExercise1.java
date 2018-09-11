@@ -7,12 +7,12 @@ class ProgrammingExercise1 {
     
     // Prompt the user to enter a number
     System.out.print("Enter a degree in Celsius: ");
-    double degreecelcius = input.nextDouble();
+    double degreecelsius = input.nextDouble();
     
     // Compute the change to farenheit
-    double degreefarenheit = ((9 / 5) * degreecelcius + 32);
+    double degreefarenheit = ((9.0 / 5) * degreecelsius + 32);
     
     //Display results
-    System.out.println(degreecelcius + " Celsius is " + degreefarenheit + " Faherenheit");
+    System.out.println(degreecelsius + " Celsius is " + degreefarenheit + " Faherenheit");
   }
 }
