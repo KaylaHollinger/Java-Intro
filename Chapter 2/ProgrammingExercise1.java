@@ -1,7 +1,7 @@
 import java.util.Scanner; // Scanner is in the java.util pakage
 
 class ProgrammingExercise1 {
-  Public static void main(String[] args) {
+  public static void main(String[] args) {
     // Create a Scanner object
     Scanner input = new Scanner(System.in);
     
@@ -13,6 +13,6 @@ class ProgrammingExercise1 {
     double degreefarenheit = ((9 / 5) * degreecelcius + 32);
     
     //Display results
-    System.out.println(degreecelcius + " " + degreefarenheit);
+    System.out.println(degreecelcius + " Celsius is " + degreefarenheit + " Faherenheit");
   }
 }
