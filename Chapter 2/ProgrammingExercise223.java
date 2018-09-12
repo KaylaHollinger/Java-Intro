@@ -14,9 +14,9 @@ class ProgrammingExercise223 {
 		double pricepg = input.nextDouble();
 		
 		//Compute Cost
-		double cost = ((distance / milespg) * pricepg)
+		double cost = (int)(((distance / milespg) * pricepg) * 100);
     
 		// Display results
-		System.out.println("The cost of driving is $" + cost);
+		System.out.println("The cost of driving is $" + cost / 100);
 	}
 }
