@@ -1,4 +1,5 @@
-import java.util.Scanner;
+// Kayla Hollinger 09/11/18
+import java.util.Scanner; // Scanner is in the java.util package
 
 class ProgrammingExercise223 {
 	public static void main(String[] args) {
