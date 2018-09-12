@@ -12,9 +12,11 @@ class ProgrammingExercise223 {
 		double milespg = input.nextDouble();
 		System.out.print("Enter price per gallon: ");
 		double pricepg = input.nextDouble();
+		
+		//Compute Cost
+		double cost = ((distance / milespg) * pricepg)
     
 		// Display results
 		System.out.println("The cost of driving is $" + cost);
-	  	
 	}
 }
