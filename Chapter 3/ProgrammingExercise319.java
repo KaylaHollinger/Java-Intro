@@ -18,10 +18,14 @@ class ProgrammingExercise319 {
 		double perimeter = (a + b + c);
 		
 		//compute the perimeter
-	if (a + b + c == 0) {
+	if (a + b <= c)
+		System.out.println("The input is invalid.");
+	if (c + b <= a)
+		System.out.println("The input is invalid.");
+	if (a + c <= b)
 		System.out.println("The input is invalid.");
 		
-		}
+	
 	else {
 		System.out.println("The perimeter of the triangle is: " + perimeter);
 		}
