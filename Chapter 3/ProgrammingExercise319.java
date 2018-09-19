@@ -24,10 +24,9 @@ class ProgrammingExercise319 {
 		System.out.println("The input is invalid.");
 	if (a + c <= b)
 		System.out.println("The input is invalid.");
-		
-	
-	else {
-		System.out.println("The perimeter of the triangle is: " + perimeter);
-		}
+	if (a + b > c)
+	if (c + b > a)
+	if (a + c > b)
+		System.out.println("The perimeter of the triangle is: " + perimeter);	
 	}
 }
