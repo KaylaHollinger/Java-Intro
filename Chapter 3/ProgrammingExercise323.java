@@ -17,16 +17,27 @@ class ProgrammingExercise323 {
 		//designate how to answer	
 	if (x <= 10 / 2)
 	if (y <= 5.0 / 2)
-		System.out.println("Point (" + x + "," + y + ") is in the rectangle");
+	if (x > 0)
+	if (y > 0)
+		System.out.println("Point (" + x + "," + y + ") is in the rectangle.");
 		
 	if (x > 10 / 2)
 	if (y > 5.0 / 2)
-		System.out.println("Point (" + x + "," + y + ") is not in the rectangle");
+		System.out.println("Point (" + x + "," + y + ") is not in the rectangle.");
 	if (x <= 10 / 2)
 	if (y > 5.0 / 2)
-		System.out.println("Point (" + x + "," + y + ") is not in the rectangle");
+		System.out.println("Point (" + x + "," + y + ") is not in the rectangle.");
 	if (x > 10 / 2)
 	if (y <= 5.0 / 2)
-		System.out.println("Point (" + x + "," + y + ") is not in the rectangle");		
+		System.out.println("Point (" + x + "," + y + ") is not in the rectangle.");
+	if (x < 0)
+	if (y < 0)
+		System.out.println("Point (" + x + "," + y + ") is not in the rectangle.");
+	if (x <= 10 / 2)
+	if (y < 0)
+		System.out.println("Point (" + x + "," + y + ") is not in the rectangle.");
+	if (x < 0)
+	if (y <= 5.0 / 2)
+		System.out.println("Point (" + x + "," + y + ") is not in the rectangle.");
 	}
 }
