@@ -12,16 +12,12 @@ class ProgrammingExercise417 {
 		System.out.print("Enter a month: ");
 		String month = input.next();
 		//System.out.println("Month is '" + month + "'");
-				
+		
+		
+		
 		if (month.equals("Jan")) {
 			System.out.println(month + " " + year + " has " + 31 + " days");
-		}	
-		//if (month.equals("Feb"))     (year / 4 
-			
-			//System.out.println(month + " " + year + " has " + 29 + " days");
-		//else (month.equals("Feb"))
-			//System.out.println(month + " " + year + " has " + 29 + " days");
-		//}
+		}
 		if (month.equals("Mar")) {
 			System.out.println(month + " " + year + " has " + 31 + " days");
 		}
@@ -52,5 +48,12 @@ class ProgrammingExercise417 {
 		if (month.equals("Dec")) {
 			System.out.println(month + " " + year + " has " + 31 + " days.");
 		}
+		
+		
+		
+		// Test for leap year
+		boolean leapYear = ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+		
+		System.out.println(((leapYear) ? 29 : 28) + " days");	
 	}
 }
