@@ -1,6 +1,6 @@
 //Kayla Hollinger 10/5/18
 
-class ProgramingExercise511 {
+class ProgrammingExercise511 {
 	public static void main(String[] args) {
 		
 		//list variable
