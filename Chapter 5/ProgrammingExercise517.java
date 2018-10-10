@@ -9,17 +9,21 @@ class ProgrammingExercise517 {
 		System.out.print("Enter the number of lines: ");
 		int nol = input.nextInt();
 		
+		//make the pyramid
 		for (int p = 1; p <= nol; p++)  {
 			System.out.println( );
 			
+			//spacing
 			for (int s = nol - p; s >= 1; s--) {
 				System.out.print("  ");
 			}
 			
+			//numbers counting back
 			for (int l = p; l >= 2; l--) {
 				System.out.print(l + " ");
 			}
 			
+			//numbers counting forward
 			for (int r = 1; r <= p; r++) {
 				System.out.print(r + " ");
 			}
