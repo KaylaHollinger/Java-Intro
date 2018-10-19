@@ -6,5 +6,10 @@ class ProgrammingExercise549 {
 		//Create scanner object
 		Scanner input = new Scanner(System.in);
 		
-		//Enter the word
-		System.out.print("Enter a word: ");
+		//Prompt for the integer
+		System.out.print("Enter an integer: ");
+		int nuumber = inout.nextInt();
+		
+		//Report palindromeness
+		System.out.println(number + (isPalindrome(number) ? " is " : " is not ") + "a palindrome.");
+		
