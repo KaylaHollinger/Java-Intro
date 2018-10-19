@@ -10,7 +10,7 @@ class ProgrammingExercise549 {
 		System.out.print("Enter a word: ");
 		
 		//Define the variables
-		String word = input.next();
+		String word = input.nextLine();
 		int vowels = 0;
 		int consonants = 0;
 		
