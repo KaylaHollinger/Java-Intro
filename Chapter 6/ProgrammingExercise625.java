@@ -8,18 +8,21 @@ class ProgrammingExercise549 {
 		
 		//Enter the word
 		System.out.print("Enter n: ");
-		int n = input.nextInt();
+		long millis = input.nextLong();
 		
-		printMatrix(n);
+		System.out.println("hours:minutes:seconds: " convertMillis(millis));			
 	}
 	
 	//Method to display matrix
-	public static void printMatrix(int n) {
-		for (int rows = 0; rows < n; rows++) {
-			for (int c = 0; c < n; c ++) {
-				System.out.print((int)(Math.random() * 2));
-			}
-			System.out.println();
+	public static String convertMillis(long millis) {
+		millis /= 1000;
+		
+		String current = "";
+		for (int i = 0; i < 2; i++) {
+			current = ":" + millis % 60 + current;
+			millis /= 60;
+		}
+		return millis + current;
 		}
 	}
 }
