@@ -8,14 +8,14 @@ class ProgrammingExercise549 {
 		
 		//Prompt for the integer
 		System.out.print("Enter an integer: ");
-		int number = inout.nextInt();
+		int number = input.nextInt();
 		
 		//Report palindromeness
 		System.out.println(number + (isPalindrome(number) ? " is " : " is not ") + "a palindrome.");
 	}
 	
 	//Method returns true if
-	Public static boolean isPalindrome(int number) {
+	public static boolean isPalindrome(int number) {
 		return number == reverse(number) ? true : false;
 	}
 	
