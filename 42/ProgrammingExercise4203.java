@@ -7,7 +7,7 @@ import java.util.Scanner;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
-class ProgrammingExercise603Test {
+class ProgrammingExercise4203Test {
 	@Before
 	public static void main(String[] args) {
 		//Create scanner object
